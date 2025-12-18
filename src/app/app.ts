@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { skillTagComponent } from './skill-tag/skillTag.component'; 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.html',
+  imports: [skillTagComponent],
   styleUrl: './app.css'
 })
 export class App {
